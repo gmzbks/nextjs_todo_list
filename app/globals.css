@@ -18,10 +18,66 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  padding : 0;
+  background-color: #1676aa80;
+  padding : 0;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10rem;
+  width: 100vw;
+  height: 100vh;
+}
+h1{ 
+  text-align: center;
+  text-decoration:underline;
+  margin: 10rem;
+}
+.addTask{
+ 
+  margin: 10px;
+  
+}
+.addTask-input{
+ padding: 16px;
+ height: 3vh;
+ width: 100%;
+ outline: none;
+ border-radius: 3px;
+
+}
+.addTask-button {
+  margin: 20px;
+  border: 1px solid grey;
+  padding: 5px 5px; 
+  background-color: #426b8280; 
+  color: white; 
+  cursor: pointer;
+  border-radius: 3px; 
+}
+
+.addTask-button:hover {
+  background-color: #7f8f9780 
+}
+.todolist{
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  padding: 1px;
+  margin: 8px;
+  border-radius: 3px;
+}
+.checkbox{
+  margin: 8px;
+}
+.todolist-button{
+  margin: 19px;
+}
+.line-through {
+  text-decoration: line-through;
+  margin: 8px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+  margin: 8px;
 }
